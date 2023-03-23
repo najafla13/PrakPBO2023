@@ -3,7 +3,7 @@ package org.bangundatar;
 import org.poligon.Poligon;
 
 public class BujurSangkar extends Poligon{
-	private double sisi;
+	protected double sisi;
 	public BujurSangkar(double sisi, int jumlahSisi){
 	this.sisi = sisi;
 	this.jumlahSisi = jumlahSisi;
